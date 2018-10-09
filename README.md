@@ -18,7 +18,7 @@ One call is a GET one to make a READ API Operation on the selected Resource's da
 ## Usage
 
 A few parameters need to be customized directly in the asset/item-copy.js file (starting lines of the file)  
-* the current url of the Omeka S Installation : by default the url is set to the Location origin Property of the current Location Object (for example http://example.com), if the admin url contains a pathname, you have to set in manually (for example http://example.com/bib/omeka-s)  
+* the current url of the Omeka S Installation : by default the url is set to the Location origin Property of the current Location Object (for example http://example.com), if the admin url contains a pathname, you have to set it manually (for example http://example.com/bib/omeka-s)  
 * The key_identity and key_credential parameters : to perform a GET operation on a non-public Resource or/and a POST operation to create a new Resource, the API requests must be authentified with key_identity and key_credantial parameters. These 2 parameters are given for admin user by activating an API Key in the API keys tab of their user edit page.
 
 
