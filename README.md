@@ -2,6 +2,7 @@
 
 This module allows logged users in the Admin Dashbord to quickly make a duplicate operation on Resources, which could be helpful when a lot of items are very similar.  
 Once installed and activated, the module adds a new button in the actions list in the browse View. Clicking this button will copy and paste in a new item all properties, class, modele... of the selected item.  
+
 ![Image of Dasboard](screenshot.png)
 
 ## Installation
