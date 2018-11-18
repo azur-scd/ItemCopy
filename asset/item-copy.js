@@ -1,11 +1,11 @@
 $( document ).ready(function() {
-	/*By default the url is set to the Location origin Property of the current Location Object, ie window.location.origin
-	if the admin url contains a pathname, you have to set the complete url manually*/	
-	var urlAdmin = window.location.origin;
 
     /*User key_identity and key_credential, activate the API keys tab of the user edit page to get them	*/
 	var keyIdentity = "your_key_identity";
 	var keyCredential = "your_key_credential";
+	
+	var url = window.location;	
+	var urlAdmin = url.split("/admin/item")[0];
 	
 $(".tablesaw-cell-content").each(function() {
   var itemId =  $(this).children("input").attr("value");
