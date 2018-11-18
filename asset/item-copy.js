@@ -4,7 +4,7 @@ $( document ).ready(function() {
 	var keyIdentity = "your_key_identity";
 	var keyCredential = "your_key_credential";
 	
-	var url = window.location;	
+	var url = window.location.href;	
 	var urlAdmin = url.split("/admin/item")[0];
 	
 $(".tablesaw-cell-content").each(function() {
