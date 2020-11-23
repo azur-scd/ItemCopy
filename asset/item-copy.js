@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
     /* User key_identity and key_credential, activate the API keys tab of the user edit page to get them */
-    var keyIdentity = "your_key_identity";
-    var keyCredential = "your_key_credential";
+    var keyIdentity = 'your_key_identity';
+    var keyCredential = 'your_key_credential';
 
     var url = window.location.href;
     var urlAdmin = url.split("/admin/item")[0];
@@ -14,6 +14,12 @@ $( document ).ready(function() {
 
     $('.item-copy').click(function(e){
         e.preventDefault();
+
+        if (keyIdentity === 'your_key_identity' || keyCredential === 'your_key_credential') {
+            alert('You should set your credential keys to copy an item.');
+            return;
+        }
+
         $.ajax({
             "async": true,
             "crossDomain": true,
