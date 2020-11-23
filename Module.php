@@ -1,8 +1,8 @@
 <?php
 namespace ItemCopy;
 use Omeka\Module\AbstractModule;
-use Zend\EventManager\Event;
-use Zend\EventManager\SharedEventManagerInterface;
+use Laminas\EventManager\Event;
+use Laminas\EventManager\SharedEventManagerInterface;
 /**
  * ItemCopy
  */
