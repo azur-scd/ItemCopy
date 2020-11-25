@@ -23,4 +23,5 @@ A few parameters need to be customized directly in the asset/item-copy.js file (
 
 ## Todo
 
-Add a filter to the GET API response to get only the properties of each Item, and not the media ressources or the item set for example
+- [ ] Add a filter to the GET API response to get only the properties of each Item, and not the media ressources or the item set for example
+- [ ] Use the session credentials to avoid config (see [omeka/omeka-s#1613](https://github.com/omeka/omeka-s/issues/1613)).
