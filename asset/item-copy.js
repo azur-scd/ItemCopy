@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
     /* User key_identity and key_credential, activate the API keys tab of the user edit page to get them */
-    var keyIdentity = 'your_key_identity';
-    var keyCredential = 'your_key_credential';
+    var keyIdentity = 'TGxoqd9wlnyjfig3QIxfLxHuiLY83qlM';
+    var keyCredential = 'mmeM3Lc9L1B3Petjj9YZ7g71SQ7tLvFQ';
 
     var url = window.location.href;
     var urlAdmin = url.split("/admin/item")[0];
